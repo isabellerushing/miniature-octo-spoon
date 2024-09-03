@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8" />
+  <title>India</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+  <div class="topnav">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#" style="color: rgb(255, 20, 147)">Home</a>
+      <a class="nav-item nav-link" href="https://github.com/isabellerushing/psychic-octo-carnival-india" target="_blank">Link to Repo</a>
+      <a class="nav-item nav-link" href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fisabellerushing.github.io%2Fbug-octo-broccoli-echo%2F" target="nu">Check this page's validity</a></a>
+    </nav>
+  </div>
+
+  <button id="loadData" class="btn btn-secondary">Load my Profile Info</button>
+
+  <button id="resetData" class="btn btn-secondary">Clear Form</button>
+
+  <div class="row">
+    <div class="col-md-6 offset-md-3 card mt-3">
+      <h3 class="card-title">Sign up for Magazine Subscription!</h3>
+      <form id="subscription" onload="init()">
+        <div class="mb-3 mt-3">
+          <label for="email" class="form-label">Email:</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" />
+        </div>
+        <div class="mb-3">
+          <label for="pwd" class="form-label">Password:</label>
+          <input type="password" class="form-control" id="pswd" placeholder="Enter password" name="pswd" />
+          <span id="pswd">
+            <button class="btn btn-default reveal" type="button"><i class="bi-eye-fill"></i></button>
+          </span>
+        </div>
+        <div class="form-check mb-3">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox" name="remember" />
+            Remember me
+          </label>
+        </div>
+
+        <div class="form-check">
+          <input type="radio" class="form-check-input" id="radio1" name="optradio" value="A" />I have a pet
+          <label class="form-check-label" for="radio1"></label>
+        </div>
+        <div class="form-check">
+          <input type="radio" class="form-check-input" id="radio2" name="optradio" value="B" />I don't have a pet
+          <label class="form-check-label" for="radio2"></label>
+        </div>
+
+        <select id="letterWordsSelect" class="form-select" aria-label="Default select example">
+          <option selected disabled>Choose an answer above</option>
+        </select>
+
+        <button id="submitForm" type="submit" class="btn btn-primary">
+          Submit
+        </button>
+      </form>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+  <script src="scripts/script.js"></script>
+</body>
+
+</html>

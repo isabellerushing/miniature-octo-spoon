@@ -1,0 +1,21 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
+body {
+  background-image: url('https://images.unsplash.com/photo-1462275646964-a0e3386b89fa?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM0NjM1MTl8&ixlib=rb-4.0.3&q=85');
+/*   background-image: url('https://images.unsplash.com/photo-1543157145-f78c636d023d?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM0NjM0ODB8&ixlib=rb-4.0.3&q=85'); */
+/*   background-image: url('https://images.unsplash.com/photo-1555931156-73ca648e3c9c?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM0NTExNTN8&ixlib=rb-4.0.3&q=85'); */
+/*   background-image: url("https://images.unsplash.com/photo-1457089328109-e5d9bd499191?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM0NTEyMTR8&ixlib=rb-4.0.3&q=85"); */
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: scroll;
+}
+
+.topnav a {
+  color: rgb(255, 20, 147);
+  margin-left: 10px;
+}
+
+.topnav a:hover {
+  color: orange;
+}
